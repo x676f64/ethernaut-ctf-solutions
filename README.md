@@ -357,6 +357,7 @@ contract Enterer {
     <summary>👌 Level 15 - Naught coin</summary>
 
 The timelock only applies to `transfer`, not `transferFrom` so we need to go with `approve` -> `transferFrom`
+Replace '0x...' with the contract instance address. Type 'instance' in the browsers inspect console to get the address.
 
 ```solidity
 > balance = (await contract.balanceOf(player)).toString()
